@@ -352,13 +352,13 @@ export const experts = [
     _id: "doc3",
     name: "David Akinola",
     image: doc3,
-    speciality: "Digital Marketer",
+    speciality: "Photographer",
     degree: "B.Sc. Marketing",
     experience: "4 Years",
     about:
       "David helps small businesses in Ogbomoso build online visibility through social media strategy, SEO, and digital branding.",
     fees: 50,
-    category: "Business & Entrepreneurship",
+    category: "Creative & Design Skills",
     address: {
       line1: "LAUTECH Road",
       line2: "Ogbomoso, Nigeria",

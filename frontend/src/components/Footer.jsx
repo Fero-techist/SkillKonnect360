@@ -5,12 +5,12 @@ const Footer = () => {
   // const navigate = useNavigate();
   return (
     <div className=" md:mx-10">
-      <div className=" flex items-center flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm">
+      <div className=" flex items-center flex-col sm:grid lg:grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm">
         {/* left section */}
         <div>
           <div className=" flex  mb-4 items-center">
             <p className=" text-2xl flex items-center">
-              Skill <span className=" text-black font-extrabold">Connect</span>
+              Skill <span className=" text-black font-extrabold">Konnect</span>
               <span className="text-yellow-400">360</span>
             </p>
           </div>

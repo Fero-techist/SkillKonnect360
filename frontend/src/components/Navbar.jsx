@@ -12,10 +12,12 @@ const Navbar = () => {
     <div>
       <div className=" flex items-center justify-between text-sm py-6 mb-10 border-b border-b-gray-300">
         <div className=" flex  items-center">
-          <p className=" text-2xl flex items-center">
-            Skill <span className=" text-black font-extrabold">Connect</span>
-            <span className="text-yellow-400">360</span>
-          </p>
+          <NavLink to="/">
+            <p className=" text-2xl flex items-center">
+              Skill <span className=" text-black font-extrabold">Konnect</span>
+              <span className="text-yellow-400">360</span>
+            </p>
+          </NavLink>
         </div>
         <div>
           <ul className=" hidden md:flex items-start gap-5 font-medium">
@@ -100,18 +102,14 @@ const Navbar = () => {
               showMenu ? "fixed w-full" : "h-0 w-0"
             } md:hidden right-0 top-0 bottom-0 z-20 overflow-hidden bg-white transition-all`}
           >
-            <div className=" flex items-center justify-between px-5 py-6">
-              <img
-                className=" w-36"
-                src={assets.logo}
-                alt=""
-              />
-              <img
-                className=" w-7"
-                onClick={() => setShowMenu(false)}
-                src={assets.cross_icon}
-                alt=""
-              />
+            <div className=" flex  items-center">
+              <NavLink to="/home">
+                <p className=" text-2xl flex items-center">
+                  Skill{" "}
+                  <span className=" text-black font-extrabold">Konnect</span>
+                  <span className="text-yellow-400">360</span>
+                </p>
+              </NavLink>
             </div>
 
             <ul className=" flex flex-col items-center gap-2 mt-5  px-5 text-lg font-medium">
@@ -123,9 +121,9 @@ const Navbar = () => {
               </NavLink>
               <NavLink
                 onClick={() => setShowMenu(false)}
-                to="/doctors"
+                to="/experts"
               >
-                <p className="px-4 py-2 rounded inline-block"> All Doctors</p>
+                <p className="px-4 py-2 rounded inline-block"> Find Experts</p>
               </NavLink>
               <NavLink
                 onClick={() => setShowMenu(false)}

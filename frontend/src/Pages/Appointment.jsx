@@ -208,7 +208,7 @@ const Appointment = () => {
           </div> */}
 
           <div className="flex items-center justify-center">
-            <div className="bg-white rounded-lg shadow-lg p-8 w-98">
+            <div className="bg-white rounded-lg shadow-lg p-8 lg:w-98 md:w-full w-full">
               <form
                 className="flex flex-col gap-4"
                 onSubmit={handleSubmit}

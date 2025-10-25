@@ -36,7 +36,7 @@ const Header = () => {
         </a>
       </div>
       {/* Right side */}
-      <div className=" w-1/2 relative">
+      <div className=" lg:w-1/2 md:w-1/2 w-full relative">
         <img
           className=" w-full md:absolute bottom-0 h-auto rounded-lg"
           src={assets.header_img}
