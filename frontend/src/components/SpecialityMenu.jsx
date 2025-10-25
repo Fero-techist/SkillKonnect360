@@ -23,7 +23,7 @@ const SpecialityMenu = () => {
             to={`/experts/${item.category}`}
           >
             <img
-              className=" lg:w-full md:w-full w-20 rounded-full mb-2"
+              className=" lg:w-20 md:w-full w-20 rounded-full mb-2"
               src={item.image}
               alt=""
             />
