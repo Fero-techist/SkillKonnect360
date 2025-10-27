@@ -25,7 +25,9 @@ const Experts = () => {
 
   return (
     <div>
-      <p className=" text-gray-600">Browse through the doctors specialist</p>
+      <p className=" text-gray-600">
+        {/* Browse through the service provider specialist */}
+      </p>
       <div className=" flex justify-between flex-col sm:flex-row items-start gap-5 mt-5">
         <div className="flex flex-col gap-4 text-sm text-gray-600">
           <p
